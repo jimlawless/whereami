@@ -9,7 +9,7 @@ The example programs include:
 
 src/whereami_example1.go - This is a program that shows simple, inline use of the WhereAmI() function.  The output is as follows:
 
-File: whereami_example1.go  Function: main.main Line: 15
+    File: whereami_example1.go  Function: main.main Line: 15
 
 src/whereami_example2.go - This is a program showing where the code is executing in main() and a factorial function called fact().
 
