@@ -1,6 +1,8 @@
 # whereami 
 ## A Go library for code tracing
 
+Please see the related blog post at: https://jiml.us/posts/whereami/
+
 whereami has one exported function: WhereAmI() which acts as a wrapper for runtime.Caller().  The WhereAmi() function returns a formatted string indicating the current source file name, function name, and line number.
 
 The WhereAmI() function expects either one or zero integer parameters.  In either case, the WhereAmI() function receives the parameters as a slice of ints.  If that slice is nil, no parameters have been specified.  If a parameter is specified, it will appear as entry number zero in the slice and will be passed on to runtime.Caller().
