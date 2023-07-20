@@ -1,7 +1,7 @@
 # whereami 
 ## A Go library for code tracing
 
-Please see the related blog post at: https://jiml.us/posts/whereami/
+Please see the related blog post at: https://jiml.us/blog/posts/whereami/
 
 whereami has one exported function: WhereAmI() which acts as a wrapper for runtime.Caller().  The WhereAmi() function returns a formatted string indicating the current source file name, function name, and line number.
 
